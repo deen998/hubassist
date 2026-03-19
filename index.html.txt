@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HubAssist - Онлайн Доходи</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0b0f1a;
+    color: white;
+}
+
+header {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #111827, #020617);
+}
+
+h1 { font-size: 50px; }
+
+.btn {
+    margin-top: 25px;
+    display: inline-block;
+    padding: 15px 40px;
+    background: #22c55e;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background: #020617;
+    color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Започни да печелиш онлайн</h1>
+    <p>Система за начинаещи без опит</p>
+
+    <a href="https://buy.stripe.com/YOUR-LINK-HERE" class="btn">Купи сега</a>
+
+    <div>
+        <p>Или вземи безплатни съвети:</p>
+        <input type="email" placeholder="Твоят имейл">
+    </div>
+</header>
+
+<section class="section">
+    <h2>Какво получаваш</h2>
+    <p>Практически методи, стратегии и план</p>
+</section>
+
+<footer>
+    <p>© 2026 HubAssist</p>
+</footer>
+
+</body>
+</html>
